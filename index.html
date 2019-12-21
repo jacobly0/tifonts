@@ -12,13 +12,6 @@
         font-family: TICELargeSmooth;
         src: url('TICELargeSmooth.woff') format('woff'), url('TICELargeSmooth.otf') format('opentype'), url('TICELargeSmooth.ttf') format('truetype');
       }
-      :not(h1) {
-        font-family: inherit;
-        font-size: inherit;
-        font-smooth: never;
-        -webkit-font-smoothing: none;
-        -moz-osx-font-smoothing: unset;
-      }
       #TICELarge {
         font-family: TICELarge;
         font-size: 17px;
@@ -27,19 +20,43 @@
         font-family: TICELargeSmooth;
         font-size: 17px;
       }
+      :not(h1) {
+        font-family: inherit;
+        font-size: inherit;
+        font-smooth: never;
+        -webkit-font-smoothing: none;
+        -moz-osx-font-smoothing: unset;
+      }
+      h2 {
+	  font-size: 200%;
+	  font-weight: initial;
+      }
+      th {
+	  text-align: left;
+	  font-weight: initial;
+      }
+      td {
+	  vertical-align: top;
+      }
     </style>
   </head>
   <body>
     <h1>TI Calculator Fonts</h1>
     <hr/>
     <div id="TICELarge">
-      <div style="font-size: 200%;">TI-84+CSE, TI-84+CE, and TI-83PCE Large OS Font</div>
+      <h2>TI-84+CSE, TI-84+CE, and TI-83PCE Large OS Font</h2>
       Download:
       <a href="TICELarge.woff">woff</a>
       <a href="TICELarge.otf">otf</a>
       <a href="TICELarge.ttf">ttf</a><br/>
-      Characters:
-      <pre>&#x25A0;&#x1D48F;&#x1D602;&#x1D603;&#x1D604;&#x1F782;&#x2B06;&#x2B07;&#x222B;&#x00D7;&#x25AB;&#x208A;&#x25AA;&#x1D1B;&#x1D9F;&#x1D5D9;
+      <table>
+	<tr>
+	  <th>Characters:</th>
+	  <th>Example:</th>
+	</tr>
+	<tr>
+	  <td>
+	    <pre>&#x25A0;&#x1D48F;&#x1D602;&#x1D603;&#x1D604;&#x1F782;&#x2B06;&#x2B07;&#x222B;&#x00D7;&#x25AB;&#x208A;&#x25AA;&#x1D1B;&#x1D9F;&#x1D5D9;
 &#x221A;&#x207B;&#x00B9;&#x00B2;&#x2220;&#x00B0;&#x02B3;&#x1D40;&#x2264;&#x2260;&#x2265;&#x207B;&#x1D07;&#x2192;&#x23E8;&#x2191;&#x2193;
 &#x0020;&#x0021;&#x0022;&#x0023;&#x0024;&#x0025;&#x0026;&#x0027;&#x0028;&#x0029;&#x2217;&#x002B;&#x002C;&#x2212;&#x002E;&#x002F;
 &#x0030;&#x0031;&#x0032;&#x0033;&#x0034;&#x0035;&#x0036;&#x0037;&#x0038;&#x0039;&#x003A;&#x003B;&#x003C;&#x003D;&#x003E;&#x003F;
@@ -55,8 +72,9 @@
 &#x25A0;&#x2215;&#x2010;&#x14BE;&#x02DA;&#x00B3;&#x000D;&#x1D456;&#x0070;&#x0302;&#x03C7;&#x1D405;&#x1D452;&#x029F;&#x1D5E1;&#x2E29;&#x1F83A;
 &#x2588;&#x2191;&#x20DE;&#x0041;&#x20DE;&#x0061;&#x20DE;&#x005F;&#x2191;&#x0332;&#x0041;&#x0332;&#x0061;&#x0332;&#x2572;&#x1D20F;&#x25E5;&#x25E3;&#x22B8;&#x2218;&#x22F1;&#x1F845;
 &#x1F847;&#x2591;&#x2074;&#x2B06;&#x00DF;&#x2423;&#x2044;&#x2B1A;&#x1A1E;&#x2024;&#x25A0;&#x25A0;&#x25A0;&#x25A0;&#x25A0;&#x25A0;</pre>
-      Example:<br/>
-      <textarea rows="17" cols="17">PROGRAM:CIRCLES
+	  </td>
+	  <td>
+	    <textarea rows="17" cols="17">PROGRAM:CIRCLES
 :&#x200A;ClrDraw&#x200A;:&#x200A;AxesOff&#x200A;
 :&#x200A;BackgroundOff&#x200A;
 :&#x200A;0&#x200A;&#x2192;&#x200A;Xmin&#x200A;:&#x200A;Xmin&#x200A;&#x2192;&#x200A;Ymin&#x200A;
@@ -72,6 +90,9 @@
 :&#x200A;Circle(&#x200A;B&#x200A;,&#x200A;C&#x200A;,&#x200A;F&#x200A;,&#x200A;D&#x200A;
 :&#x200A;End&#x200A;
 :&#x200A;End&#x200A;</textarea>
+	  </td>
+	</tr>
+      </table>
     </div>
     <hr/>
     <div id="TICELargeSmooth">
@@ -80,8 +101,14 @@
       <a href="TICELargeSmooth.woff">woff</a>
       <a href="TICELargeSmooth.otf">otf</a>
       <a href="TICELargeSmooth.ttf">ttf</a><br/>
-      Characters:
-      <pre>&#x25A0;&#x1D48F;&#x1D602;&#x1D603;&#x1D604;&#x1F782;&#x2B06;&#x2B07;&#x222B;&#x00D7;&#x25AB;&#x208A;&#x25AA;&#x1D1B;&#x1D9F;&#x1D5D9;
+      <table>
+	<tr>
+	  <th>Characters:</th>
+	  <th>Example:</th>
+	</tr>
+	<tr>
+	  <td>
+	    <pre>&#x25A0;&#x1D48F;&#x1D602;&#x1D603;&#x1D604;&#x1F782;&#x2B06;&#x2B07;&#x222B;&#x00D7;&#x25AB;&#x208A;&#x25AA;&#x1D1B;&#x1D9F;&#x1D5D9;
 &#x221A;&#x207B;&#x00B9;&#x00B2;&#x2220;&#x00B0;&#x02B3;&#x1D40;&#x2264;&#x2260;&#x2265;&#x207B;&#x1D07;&#x2192;&#x23E8;&#x2191;&#x2193;
 &#x0020;&#x0021;&#x0022;&#x0023;&#x0024;&#x0025;&#x0026;&#x0027;&#x0028;&#x0029;&#x2217;&#x002B;&#x002C;&#x2212;&#x002E;&#x002F;
 &#x0030;&#x0031;&#x0032;&#x0033;&#x0034;&#x0035;&#x0036;&#x0037;&#x0038;&#x0039;&#x003A;&#x003B;&#x003C;&#x003D;&#x003E;&#x003F;
@@ -97,8 +124,9 @@
 &#x25A0;&#x2215;&#x2010;&#x14BE;&#x02DA;&#x00B3;&#x000D;&#x1D456;&#x0070;&#x0302;&#x03C7;&#x1D405;&#x1D452;&#x029F;&#x1D5E1;&#x2E29;&#x1F83A;
 &#x2588;&#x2191;&#x20DE;&#x0041;&#x20DE;&#x0061;&#x20DE;&#x005F;&#x2191;&#x0332;&#x0041;&#x0332;&#x0061;&#x0332;&#x2572;&#x1D20F;&#x25E5;&#x25E3;&#x22B8;&#x2218;&#x22F1;&#x1F845;
 &#x1F847;&#x2591;&#x2074;&#x2B06;&#x00DF;&#x2423;&#x2044;&#x2B1A;&#x1A1E;&#x2024;&#x25A0;&#x25A0;&#x25A0;&#x25A0;&#x25A0;&#x25A0;</pre>
-      Example:<br/>
-      <textarea rows="17" cols="17">PROGRAM:CIRCLES
+	  </td>
+	  <td>
+	    <textarea rows="17" cols="17">PROGRAM:CIRCLES
 :&#x200A;ClrDraw&#x200A;:&#x200A;AxesOff&#x200A;
 :&#x200A;BackgroundOff&#x200A;
 :&#x200A;0&#x200A;&#x2192;&#x200A;Xmin&#x200A;:&#x200A;Xmin&#x200A;&#x2192;&#x200A;Ymin&#x200A;
@@ -114,6 +142,9 @@
 :&#x200A;Circle(&#x200A;B&#x200A;,&#x200A;C&#x200A;,&#x200A;F&#x200A;,&#x200A;D&#x200A;
 :&#x200A;End&#x200A;
 :&#x200A;End&#x200A;</textarea>
+	  </td>
+	</tr>
+      </table>
     </div>
     <hr/>
     <p xmlns:dct="http://purl.org/dc/terms/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
