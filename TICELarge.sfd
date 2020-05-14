@@ -1,4 +1,4 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: TICELarge
 FullName: TI-84+CSE, TI-84+CE, and TI-83PCE Large OS Font
 FamilyName: TICalc
@@ -188,7 +188,7 @@ EndChar
 
 StartChar: LrecurU
 Encoding: 2 120322 2
-AltUni2: 000155.ffffffff.0 01d566.ffffffff.0 01d5ce.ffffffff.0 01d69e.ffffffff.0
+AltUni2: 01d69e.ffffffff.0 01d5ce.ffffffff.0 01d566.ffffffff.0 000155.ffffffff.0
 Width: 48
 VWidth: 0
 Flags: HMW
@@ -221,7 +221,7 @@ EndChar
 
 StartChar: LrecurV
 Encoding: 3 120323 3
-AltUni2: 000156.ffffffff.0 01d567.ffffffff.0 01d5cf.ffffffff.0 01d69f.ffffffff.0
+AltUni2: 01d69f.ffffffff.0 01d5cf.ffffffff.0 01d567.ffffffff.0 000156.ffffffff.0
 Width: 48
 VWidth: 0
 Flags: HMW
@@ -266,7 +266,7 @@ EndChar
 
 StartChar: LrecurW
 Encoding: 4 120324 4
-AltUni2: 000157.ffffffff.0 01d568.ffffffff.0 01d5d0.ffffffff.0 01d6a0.ffffffff.0
+AltUni2: 01d6a0.ffffffff.0 01d5d0.ffffffff.0 01d568.ffffffff.0 000157.ffffffff.0
 Width: 48
 VWidth: 0
 Flags: HMW
@@ -348,7 +348,7 @@ EndChar
 
 StartChar: LsqUp
 Encoding: 6 11014 6
-AltUni2: 00f015.ffffffff.0 01f839.ffffffff.0 01f83d.ffffffff.0
+AltUni2: 01f83d.ffffffff.0 01f839.ffffffff.0 00f015.ffffffff.0
 Width: 48
 VWidth: 0
 Flags: HMW
@@ -385,7 +385,7 @@ EndChar
 
 StartChar: LsqDown
 Encoding: 7 11015 7
-AltUni2: 00f016.ffffffff.0 01f83b.ffffffff.0 01f83f.ffffffff.0
+AltUni2: 01f83f.ffffffff.0 01f83b.ffffffff.0 00f016.ffffffff.0
 Width: 48
 VWidth: 0
 Flags: HMW
@@ -577,6 +577,7 @@ EndChar
 
 StartChar: LdotIcon
 Encoding: 12 9642 12
+AltUni2: 002022.ffffffff.0
 Width: 48
 VWidth: 0
 Flags: HMW
@@ -651,7 +652,7 @@ EndChar
 
 StartChar: LhexF
 Encoding: 15 120281 15
-AltUni2: 00f01c.ffffffff.0 00f02e.ffffffff.0
+AltUni2: 00f02e.ffffffff.0 00f01c.ffffffff.0
 Width: 48
 VWidth: 0
 Flags: HMW
@@ -1081,6 +1082,7 @@ EndChar
 
 StartChar: Lneg
 Encoding: 26 8315 26
+AltUni2: 0000af.ffffffff.0
 Width: 48
 VWidth: 0
 Flags: HMW
@@ -1122,7 +1124,7 @@ EndChar
 
 StartChar: Lstore
 Encoding: 28 8594 28
-AltUni2: 01f852.ffffffff.0 01f862.ffffffff.0 01f872.ffffffff.0 01f882.ffffffff.0
+AltUni2: 01f882.ffffffff.0 01f872.ffffffff.0 01f862.ffffffff.0 01f852.ffffffff.0
 Width: 48
 VWidth: 0
 Flags: HMW
@@ -1802,7 +1804,7 @@ EndChar
 
 StartChar: Ldash
 Encoding: 45 8722 45
-AltUni2: 00002d.ffffffff.0 002014.ffffffff.0 002015.ffffffff.0
+AltUni2: 002015.ffffffff.0 002014.ffffffff.0 00002d.ffffffff.0
 Width: 48
 VWidth: 0
 Flags: HMW
@@ -8025,7 +8027,7 @@ EndChar
 
 StartChar: LcapDelta
 Encoding: 190 8710 190
-AltUni2: 000394.ffffffff.0 00f024.ffffffff.0
+AltUni2: 00f024.ffffffff.0 000394.ffffffff.0
 Width: 48
 VWidth: 0
 Flags: HMW
@@ -8242,6 +8244,7 @@ EndChar
 
 StartChar: Lmu
 Encoding: 195 956 195
+AltUni2: 0000b5.ffffffff.0
 Width: 48
 VWidth: 0
 Flags: HMW
@@ -8741,7 +8744,7 @@ EndChar
 
 StartChar: LsupX
 Encoding: 205 739 205
-AltUni2: 0002df.ffffffff.0 00f006.ffffffff.0
+AltUni2: 00f006.ffffffff.0 0002df.ffffffff.0
 Width: 48
 VWidth: 0
 Flags: HMW
@@ -8870,7 +8873,7 @@ EndChar
 
 StartChar: Lper
 Encoding: 209 8725 209
-AltUni2: 00f00a.ffffffff.0 00f023.ffffffff.0
+AltUni2: 00f023.ffffffff.0 00f00a.ffffffff.0
 Width: 48
 VWidth: 0
 Flags: HMW
@@ -8911,7 +8914,7 @@ EndChar
 
 StartChar: Lhyphen
 Encoding: 210 8208 210
-AltUni2: 000159.ffffffff.0 002012.ffffffff.0 002013.ffffffff.0
+AltUni2: 002013.ffffffff.0 002012.ffffffff.0 000159.ffffffff.0
 Width: 48
 VWidth: 0
 Flags: HMW
@@ -9049,7 +9052,7 @@ EndChar
 
 StartChar: LimagI
 Encoding: 215 119894 215
-AltUni2: 002148.ffffffff.0 00f02f.ffffffff.0 01d48a.ffffffff.0 01d4be.ffffffff.0 01d4ee.ffffffff.0
+AltUni2: 01d4ee.ffffffff.0 01d4be.ffffffff.0 01d48a.ffffffff.0 00f02f.ffffffff.0 002148.ffffffff.0
 Width: 48
 VWidth: 0
 Flags: HMW
@@ -9256,7 +9259,7 @@ EndChar
 
 StartChar: Llne
 Encoding: 219 8495 219
-AltUni2: 002147.ffffffff.0 00f03f.ffffffff.0 01d452.ffffffff.0 01d486.ffffffff.0 01d4ee.ffffffff.0
+AltUni2: 01d4ee.ffffffff.0 01d486.ffffffff.0 01d452.ffffffff.0 00f03f.ffffffff.0 002147.ffffffff.0
 Width: 48
 VWidth: 0
 Flags: HMW
@@ -9448,7 +9451,7 @@ EndChar
 
 StartChar: LblockArrow
 Encoding: 223 129082 223
-AltUni2: 002b95.ffffffff.0 00f00f.ffffffff.0 01f83e.ffffffff.0
+AltUni2: 01f83e.ffffffff.0 00f00f.ffffffff.0 002b95.ffffffff.0
 Width: 48
 VWidth: 0
 Flags: HMW
